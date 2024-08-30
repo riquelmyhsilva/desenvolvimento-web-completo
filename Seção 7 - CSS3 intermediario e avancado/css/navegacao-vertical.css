@@ -29,7 +29,15 @@ ul a {
 	background: #f7b600 url(../img/menu.png) no-repeat left bottom;
 }
 
-a:hover, .selecionado a {
+a:hover {
+	background-color:#f99200 ;
+	background-position: right bottom;
+	color: #fff;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a {
 	background-color:#f99200 ;
 	background-position: right bottom;
 	color: #fff;
